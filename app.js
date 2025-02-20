@@ -1,12 +1,11 @@
 import express from "express"
-
+import routes from "./routes"
 const app = express();
 
 const PORT = 3000;
 
+app.use( routes);
 
-console.log("hi")
-console.log('Hello World!');
 
 
 app.listen(PORT, () => {
