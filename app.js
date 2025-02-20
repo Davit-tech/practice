@@ -1,10 +1,11 @@
 import express from "express"
-import routes from "./routes"
+import router from './routes/index.js';
+
 const app = express();
 
 const PORT = 3000;
 
-app.use( routes);
+app.use( router);
 
 
 

@@ -3,6 +3,6 @@ export default {
         res.send('/commentList');
     },
     getComments: (req, res) => {
-        res.send('/register');
+        res.send('/getComments');
     }
 }
